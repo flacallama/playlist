@@ -113,9 +113,9 @@ h1 {
 }
 
 .album {
-  width: 330px;
+  width: 240px;
   /*background-color:blue;*/
-  height: 330px;
+  height: 240px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -136,8 +136,8 @@ h1 {
   position: relative;
   z-index: 1;
   src: url('./images/red.jpg');
-  width: 330px;
-  height: 330px;
+  width: 240px;
+  height: 240px;
 }
 
 .middle {
