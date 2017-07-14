@@ -1,15 +1,16 @@
-body{
+body {
   box-sizing: border-box;
-  top:-8px;
-  left:-8px;
+  top: -8px;
+  left: -8px;
   position: relative;
 }
 
 .test {
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   background-color: black;
 }
+
 
 /*// ----------- SPLASH PAGE -----------//*/
 
@@ -30,20 +31,21 @@ body{
   bottom: 0px;
 }
 
-.footerdiv{
-    margin-left: 50px;
-    margin-top: -20px;
+.footerdiv {
+  margin-left: 50px;
+  margin-top: -20px;
 }
-.footertext{
+
+.footertext {
   font-size: 2em;
   font-variant: small-caps;
   font-family: helvetica;
   color: white;
 }
 
-h1{
+h1 {
   font-size: 2.5em;
-  color:white;
+  color: white;
   font-family: helvetica;
   /*margin: 0px;*/
   margin-top: 80px;
@@ -51,28 +53,30 @@ h1{
   font-weight: 200;
 }
 
-img{
+img {
   margin-right: 70px;
 }
 
-.albumscroll{
+.albumscroll {
   width: 100%;
   height: 300px;
   /*background-color:orange;*/
   /*margin-left: auto;
   margin-right: auto;*/
 }
-.albumholder{
+
+.albumholder {
   position: absolute;
   margin-top: 150px;
-  margin-left:80px;
+  margin-left: 80px;
   /*background-color: blue;*/
-  height:150px;
+  height: 150px;
   width: 100%;
   overflow: auto;
   white-space: nowrap;
 }
-.album{
+
+.album {
   height: 100px;
   width: 100px;
   background-color: red;
@@ -80,36 +84,35 @@ img{
   margin-right: 55px;
 }
 
-.outtergreybox{
+.outtergreybox {
   margin-left: auto;
   margin-right: auto;
   height: 400px;
   width: 86%;
 }
 
-
-.greybox{
+.greybox {
   background-color: lightgray;
-  border:3px solid black;
+  border: 3px solid black;
   /*height: 300px;*/
 }
 
-.buttons{
+.buttons {
   height: 10px;
-  margin-top:30px;
+  margin-top: 30px;
 }
 
-.button{
+.button {
   width: 220px;
   height: 70px;
-  background-color:#2e1503;
+  background-color: #2e1503;
   margin-right: 5px;
   display: inline-block;
   display: relative;
   border-radius: 10px;
 }
 
-.buttontext{
+.buttontext {
   font-size: 2em;
   font-family: helvetica;
   color: white;
@@ -121,12 +124,12 @@ img{
 }
 
 .center {
-margin-left: auto;
-margin-right: auto;
-display: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: relative;
 }
 
-h4{
+h4 {
   font-family: helvetica;
   font-size: 2em;
   margin-left: 20px;
@@ -134,7 +137,6 @@ h4{
   margin-bottom: 0px;
   padding: 0;
 }
-
 
 .flex-container {
   display: flex;

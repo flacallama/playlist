@@ -1,15 +1,16 @@
-body{
+body {
   box-sizing: border-box;
-  top:-8px;
-  left:-8px;
+  top: -8px;
+  left: -8px;
   position: relative;
 }
 
 .test {
-  height:100px;
-  width:100px;
+  height: 100px;
+  width: 100px;
   background-color: black;
 }
+
 
 /*// ----------- SPLASH PAGE -----------//*/
 
@@ -31,11 +32,12 @@ body{
   bottom: 0px;
 }
 
-.footerdiv{
-    margin-left: 50px;
-    margin-top: -20px;
+.footerdiv {
+  margin-left: 50px;
+  margin-top: -20px;
 }
-.footertext{
+
+.footertext {
   font-size: 2em;
   font-variant: small-caps;
   font-family: helvetica;
@@ -43,8 +45,8 @@ body{
 }
 
 .containerleft {
-  width:50%;
-  height:100vh;
+  width: 50%;
+  height: 100vh;
   background-color: #f3f3f3;
   display: inline-block;
   margin: 0px;
@@ -52,8 +54,8 @@ body{
 }
 
 .containerright {
-  width:50%;
-  height:100vh;
+  width: 50%;
+  height: 100vh;
   /*background-color: blue;*/
   /*opacity: 0.19;*/
   display: inline-block;
@@ -62,43 +64,43 @@ body{
   position: relative;
 }
 
-.containerright:after{
-  content:'';
+.containerright:after {
+  content: '';
   display: inline-block;
   background-size: cover;
   background-image: url("./resources/track.jpg");
-  width:100%;
-  height:100vh;
-  position:absolute;
-  top:0;
-  left:0;
-  opacity:0.19;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.19;
   float: right;
 }
 
-.trackbin{
+.trackbin {
   position: absolute;
   /*background-color: black;*/
   top: 40%;
   left: 20%;
-
 }
-h1{
+
+h1 {
   font-size: 4.5em;
-  color:#4B0082;
+  color: #4B0082;
   font-family: helvetica;
   margin: 0px;
 }
 
-.trackbutton{
+.trackbutton {
   background-color: #2e1503;
   height: 100px;
   width: 19em;
-  position:relative;
+  position: relative;
   border-radius: 5%;
 }
 
-.choosetracks{
+.choosetracks {
   position: absolute;
   /*top: 5%;*/
   text-align: center;
@@ -108,17 +110,16 @@ h1{
   font-family: helvetica;
   color: white;
   font-weight: 200;
-
 }
 
-.album{
+.album {
   width: 330px;
   /*background-color:blue;*/
   height: 330px;
   margin-left: auto;
-  margin-right:auto;
-  margin-top:30px;
-  margin-bottom:30px;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .top {
@@ -129,7 +130,7 @@ h1{
   z-index: 1;
 }
 
-#toppic, #midpic, #botpic{
+#toppic, #midpic, #botpic {
   margin-top: 0px;
   opacity: 1;
   position: relative;
@@ -139,19 +140,14 @@ h1{
   height: 330px;
 }
 
-
-
-
-
-
-.middle{
+.middle {
   background-color: blue;
   opacity: 1;
   position: relative;
   z-index: 1;
 }
 
-.bottom{
+.bottom {
   background-color: pink;
   opacity: 1;
   position: relative;
